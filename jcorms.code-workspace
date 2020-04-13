@@ -4,5 +4,9 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"restructuredtext.confPath": "${workspaceFolder}/doc-src",
+		"restructuredtext.builtDocumentationPath": "${workspaceFolder}/docs",
+		"restructuredtext.linter.name": "doc8",
+	}
 }
