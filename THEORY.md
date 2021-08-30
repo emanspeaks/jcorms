@@ -24,7 +24,7 @@ as if over a stream.  Therefore, it is probably most accurate to call JCORMS
 a marshalling engine.
 
 Since JCORMS is inherently a system for streamlining marshalling of objects,
-there are times when unmarshalling we may encounter a pointer of some sort to
+there are times while unmarshalling we may encounter a pointer of some sort to
 another object not yet unmarshalled.  As such, we must address how to handle
 this unresolved reference.  To a user, this should be a black box, so for now
 I will not discuss the internal handling of this.  However, there are use cases
